@@ -1,0 +1,2 @@
+Imagem de fundo
+- No CSS, ao referenciarmos o endereço de uma imagem, usamos o valor url.

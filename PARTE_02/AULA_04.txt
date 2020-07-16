@@ -1,0 +1,12 @@
+- tags semânticas:
+    As tags semânticas fazem com que o navegador entenda melhor o nosso conteúdo, e com isso carregue melhor a nossa página.
+
+- Como se comporta um elemento que tem o seu display com o valor inline-block?
+     O tamanho pode ser ajustado, tanto na largura, quanto na altura.
+
+Nesta aula, aprendemos:
+
+A tag main, para o conteúdo principal da nossa página
+A criar listas complexas, com títulos, imagens e parágrafos
+A utilizar o inline-block
+A praticar e estilizar o conteúdo principal da nossa página

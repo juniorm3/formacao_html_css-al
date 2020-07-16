@@ -1,0 +1,8 @@
+- Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página.
+- Usar o cálculo da margin automático: Delegamos para o navegador fazer a conta de calcular a largura que resta, dividir por dois, e adicionar metade em cada um dos lados.
+
+Nesta aula, aprendemos:
+
+Como remover os estilos que o navegador cria automaticamente
+Como funciona os posicionamentos static, relative e absolute dos elementos
+Como posicionar o cabeçalho da nossa página
