@@ -1,0 +1,14 @@
+Adaptando a página inicial 
+- Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>.
+- Um balanço é a melhor alternativa. Nem tão específica, para poder repetir as classes, e nem tão genérica, para poder não precisar combinar classes.
+- Tanto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele
+
+
+
+Nesta aula, aprendemos:
+
+    A ajustar a página principal para utilizar os mesmos padrões da página de produtos
+    Medidas proporcionais com CSS
+    Como funciona a flutuação dos elementos e como modificá-la, com a propriedade float do CSS
+    Como limpar o float, com a propriedade clear do CSS
+
