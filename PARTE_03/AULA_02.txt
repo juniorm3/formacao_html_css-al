@@ -1,0 +1,3 @@
+Começando um formulário
+- Input com espaço entre a borda e o conteúdo
+    A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda.
