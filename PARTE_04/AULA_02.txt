@@ -1,0 +1,11 @@
+- Usar fontes externas é uma alternativa muito funcional para termos mais opções, que deixam o nosso site mais bonito e exclusivo,
+ e também padronizado em todos os navegadores.
+
+ 
+
+Nesta aula, aprendemos:
+
+    A utilizar fontes externas nas nossas páginas
+    Como incorporar um mapa à nossa página
+    Como incorporar um vídeo à nossa página
+
