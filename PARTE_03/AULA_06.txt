@@ -1,0 +1,2 @@
+- Utilizamos a tag <tr> para marcar uma linha de uma tabela.
+-  As tags <thead>, <tbody> e <tfoot> ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.
