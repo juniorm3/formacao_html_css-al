@@ -1,0 +1,10 @@
+- Criando um elemento antes de outro, com CSS
+* Quando queremos criar um elemento na página, via CSS, antes do elemento do HTML, usamos a propriedade :before.
+
+
+Nesta aula, aprendemos:
+
+    A melhorar mais ainda a semântica da página principal, com novas divisões, classes, etc
+    Novas pseudo-classes
+    Como aplicar um background gradiente na página
+    Pseudo-elementos
