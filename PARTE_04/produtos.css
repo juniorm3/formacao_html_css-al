@@ -155,3 +155,13 @@ td, th {
 	border: 1px solid #000000;
 	padding: 5px 20px;
 }
+
+@media screen and (max-width: 480px) {
+	.caixa, .produtos {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+}

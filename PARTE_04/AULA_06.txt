@@ -1,0 +1,14 @@
+Design responsivo 
+
+- Como marcar um elemento para que ele seja apresentado de outra forma, em uma tela de até 480px?
+É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px.
+
+- Não perdendo tempo com layouts responsivos
+* Usar medidas proporcionais para tudo
+* Criar um layout fluido que se adapte sempre
+
+Nesta aula, aprendemos:
+
+    Design responsivo: como ajustar o estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse
+        Meta tag de Viewport
+        Media Queries
