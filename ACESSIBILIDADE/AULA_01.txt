@@ -1,0 +1,23 @@
+Acessibilidade para quê?
+
+- Um possível nicho de mercado => Com 25% dos brasileiros possuindo algum tipo de deficiência, é um mercado que infelizmente não é explorado
+ pelos grandes portais atuais.
+- Todas as pessoas em algum momento possuirão alguma limitação => Empatia é uma ótima ferramenta no desenvolvimento de qualquer atividade 
+acessível, pois com ela nos preocupamos com as necessidades de todos.
+- É lei => Qualquer site mantido por empresas brasileiras precisa ser acessível;
+- Mais visibilidade => Um projeto acessível pode vir a ter mais visibilidade, infelizmente, por conta da falta de acessibilidade de outras 
+empresas.
+
+ Alterando alguns textos
+- Metáforas e figuras de linguagem podem não ser compreendidas por autistas. Corrigir para: “Preste atenção e aproveite os ótimos preços!”
+
+ Melhorando a interface para autistas
+
+Faça as modificações feitas em aula a fim de deixar o projeto inicial mais acessível para o público autista.
+
+Lembre-se de pontos como:
+
+    evitar figuras de linguagem;
+    contraste de cores mais suave;
+    elementos da UI (user interface) mais intuitivos com uma boa affordance
+
