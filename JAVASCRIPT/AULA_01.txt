@@ -1,0 +1,37 @@
+Por que estudar Javascript?
+- é uma linguagem que, além de ser a padrão nos navegadores atuais, vem expandindo para outras áreas como servidores, banco de dados e até 
+plataformas de Internet of Things.
+
+Interpretando scripts no navegador:
+- Através da tag <script></script>. Tudo que estiver dentro dela será interpretado como script e não texto.
+
+Console do desenvolvedor:
+- Executar funções Javascript diretamente no console.
+- Exibir erros de códigos Javascript carregados pelo navegador.
+- Pode ser aberto com a tecla de atalho CTRL + SHIFT + J no Windows/Linux e CMD + ALT + J no Mac.
+- Ver os resultados de funções que imprimem no console, como a console.log().
+
+Importando um arquivo externo
+- <script src="contador.js"></script>
+
+Um tal de document
+- Ela é a representação do DOM ou Document Object Model, que é a representação da nossa página HTML para o navegador, que é utilizada pelo 
+Javascript para manipular a página.
+
+Qual função podemos utilizar na variável document para especificar que queremos trazer apenas uma parte do HTML ?
+- document.querySelector();
+Podemos buscar este <h1> passando o seletor CSS correto para a função querySelector. Utilizando o seletor de tag, podemos buscar assim:
+
+document.querySelector("h1");
+
+E utilizando um seletor CSS de classe, ficaria assim:
+
+document.querySelector(".titulo");
+
+Apesar deste capítulo inicial ter sido curto, aprendemos pontos importantes como:
+
+    Separar a organização de nosso código em arquivos .js
+    Importar arquivos .js sempre ao final do body
+    A representação do HTML pela variável document
+    A função que faz busca querySelector()
+    Preferir selecionar por #id ou .classe
