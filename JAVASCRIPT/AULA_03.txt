@@ -1,0 +1,62 @@
+Arrays, Loop e Estilos
+
+limitar casas decimais:
+- toFixed
+
+Podemos controlar o número de casas decimais exibidas através da função .toFixed().
+
+A função toFixed() deve ser usadas em números, logo se queremos transformar o porcentagemCategoria em um número com apenas uma casa decimal,
+ devemos fazer:
+
+porcentagemCategoria.toFixed(1);
+
+
+- Modificar cor da letra do parágrafo
+Se queremos modificar um estilo de um elemento selecionado com o Javascript, devemos primeiro acessar a propriedade style , 
+que contêm todos os estilos daquele elemento. Depois que temos a propriedade .style em mãos, devemos especificar qual estilo 
+desejamos alterar , que neste caso é a cor do texto ou seja o estilo color.
+
+paragrafo.style.color;
+Só que não basta pegar o estilo, devemos atribuir a ele um novo valor, como neste caso desejamos alterar para a cor azul, vamos 
+colocá-lo com valor de blue:
+
+paragrafo.style.color = "blue";
+O interessante é que podemos colocar como valor, qualquer valor que seria válido no CSS, então se quiséssemos poderíamos utilizar 
+o código RGB para representar a cor:
+
+paragrafo.style.color = "rgb(0,0,255)";
+Ambos os códigos obtêm o mesmo resultado!
+
+- Modificar cor do fundo do paragrafoJá vimos que para alterar o estilo de um elemento devemos acessar a propriedade style, seguido do 
+estilo que será modificado. Porém , quando o nome do estilo possui duas palavras no CSS - como é o caso de background-color - devemos 
+representá-lo com o estilo camelCase, no qual a primeira palavra fica em caixa baixa (minúsculo) e a letra inicial das palavras seguintes 
+ficam em caixa alta (maiúsculo). Desta forma, a propriedade background-color deverá ser escrita da seguinte maneira no código: backgroundColor.
+
+<script>
+    var paragrafo = document.querySelector("#latim");
+    paragrafo.style.backgroundColor = "blue";
+</script>
+
+- .classList é a única das opções que existe no JavaScript!
+Quando selecionamos um elemento com as funções de querySelector, elas nos devolvem um objeto que tem algumas propriedades especiais, que falam 
+sobre as características do HTML selecionado. Uma dessas propriedades é a .classList, que como o nome indica nos mostras classes que aquele 
+HTML tem.
+
+- Modificando os titulos
+A função responsável por adicionar uma classe é a função .add(), que recebe como parâmetro o nome da classe que queremos adicionar!
+Só devemos lembrar de chamar esta função depois de acessarmos a propriedade .classList, que contêm as classes do HTML selecionado.
+
+var titulos = document.querySelectorAll("h2");
+
+for(var i = 0 ; i <  titulos.length ; i++){
+    var titulo = titulos[i];
+    titulo.classList.add("titulo");
+}
+
+Neste capítulo aprendemos a lidar uma coleção de elementos do HTML e vimos:
+
+Como selecionar diversos elementos com a função querySelectorAll()
+Relembramos um método clássico de iteração com o for
+Vimos como manipular estilos com a propriedade .style
+Vimos que devemos utilizar camelCase quando queremos modificar uma propriedade que tenha duas palavras, como a background-color
+A boa prática de não alterar o estilo diretamente no Javascript e sim modificar as classes dos elementos com a propriedade .classList

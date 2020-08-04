@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+    </head>
+    <body>
+        <ul class="lista-produtos">
+            <li class="produto">Web cam</li>
+            <li class="produto">Microfone</li>
+            <li class="produto">Fundo verde</li>
+            <li class="produto">Notebook</li>
+        </ul>
+
+        <script>
+            var produtos = document.querySelectorAll(".lista-produtos");
+
+            for( var i=0 ; i < produtos.length ; i++){
+                var produto  = produtos[i];
+                var nomeDoProduto = produto.textContent;
+                console.log(nomeDoProduto);
+            }
+
+            console.log(produto.classList);
+        </script>
+    </body>
+</html>
