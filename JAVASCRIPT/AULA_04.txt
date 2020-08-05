@@ -1,0 +1,69 @@
+Eventos, Formulários e Criando Elementos
+
+- Copiando valores:
+function botaoHandler() {
+        copia.textContent = inputFrase.value;
+        inputFrase.value = '';
+}
+
+- Evento padrão de botão
+
+O comportamento padrão de um form, quando clicamos em um button ou em um input submit, que está dentro dele, é enviar os dados e recarregar a
+ página. Por isso, a página de Jéssica sempre recarrega quando o usuário clica no botão.
+
+Para evitarmos este comportamento, devemos chamar a função do Javascript que previne o comportamento padrão de certos elementos: 
+event.preventDefault.
+
+Adicionaremos event.preventDefault dentro da função anônima chamada pelo evento click da função:
+
+botao.addEventListener("click", function(event){
+    event.preventDefault();
+
+    console.log(form.tarefa.value);
+    //Código para adicionar na lista de tarefas
+});
+Observe que passamos event como parâmetro da função. Com isso, incluímos um parâmetro que está sempre presente nas funções executadas quando 
+ocorre um evento.
+
+Como nem sempre event é usado, às vezes, é desnecessário passá-lo para a função. Mas neste caso, é ele quem contém a função .preventDefault(), 
+na qual estamos interessados, logo, precisaremos passá-lo como parâmetro.
+
+Um detalhe interessante é que em certos navegadores, mesmo sem receber o event como parâmetro, a função event.preventDefault() continua 
+funcionando. Isto é uma peculiaridade de certos navegadores modernos, e pode ser que navegadores mais antigos funcionem de forma diferente.
+
+Se nosso objetivo é escrever um código seguindo as boas práticas do mercado, devemos sempre usar event como parâmetro e as funções que são 
+chamadas pelos eventos.
+
+ Declaração de função para função anônima:
+ var botao = document.querySelector('#botao');
+
+botao.addEventListener('click', function() {
+
+    alert('Botão clicado');
+
+});
+
+O Javascript possuí dois tipos de funções, as funções anônimas e as funções nomeadas.
+
+As funções nomeadas, como o próprio nome diz, são as funções que levam um nome em sua criação e que podem ser invocadas posteriormente, como 
+a função mostraMensagem:
+
+function mostraMensagem(){
+    console.log("Fui clicado");
+}
+Já as funções anônimas, são funções que não tem nome e só são chamadas no contexto aonde foram declaradas. Elas são muito usadas em conjunto
+ com a função addEventListener(), onde normalmente a ação que desejamos chamar só deve ser chamada naquele local.
+
+titulo.addEventListener("click", function(){
+    console.log("Fui clicado");
+});
+
+
+Neste capítulo implementamos a criação de usuários a partir de um formulário, e com isso aprendemos:
+
+A diferença entre as funções nomeadas e as funções anônimas
+A escutar eventos do browser com a função addEventListener()
+Que a função criadora de elementos é .createElement()
+A pegar o valor de um input por meio da propriedade .value
+A acessar os input de um form por meio da propriedade _name_.
+A adicionar elementos na página e dentro de outros elementos com a função appendChild()

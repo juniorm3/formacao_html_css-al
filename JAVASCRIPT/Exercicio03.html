@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">        
+    </head>
+    <body>
+        <input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
+
+        <script>
+            var inputFrase = document.querySelector('.frase');
+            var botao = document.querySelector('.botao');
+            var copia = document.querySelector('.copia');
+
+            function botaoHandler() {
+
+                copia.textContent = inputFrase.value;
+                inputFrase.value = '';
+            }
+
+            botao.addEventListener('click', botaoHandler);
+        </script>
+
+        <script>
+            var div = document.createElement("div");
+        </script>
+    </body>
+</html>
