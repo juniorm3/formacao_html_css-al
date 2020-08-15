@@ -1,0 +1,40 @@
+Validação de Formulários
+
+-  Iterando com o forEach: 
+nomes.forEach(function(nome) {
+    console.log(nome + " é instrutor da Alura");
+})
+
+Alternativa correta. Em JavaScript, todo array possui a função forEach. Passamos para ela uma função por parâmetro, e nessa função fazemos o 
+que quisermos para cada item do array. O item do array é recebido por parâmetro na função interna.
+
+- A propriedade innerHTML
+
+Com a propriedade innerHTML, podemos editar obter o conteúdo HTML (HTML interno) de um elemento.
+
+Para editar o HTML interno, como o innerHTML é uma propriedade, utilizamos um sinal de igual (=). Fazemos:
+
+ObjetoDeUmElementoHTML.innerHTML = "Novo conteúdo"
+E para obter o HTML interno, fazemos:
+
+ObjetoDeUmElementoHTML.innerHTML
+O seu retorno será todo o conteúdo HTML, tanto tags, atributos, classes, etc, no formato de uma String.
+
+- Porque não consigo modificar o HTML interno de um elemento?
+var nome = document.querySelector("#nome").innerHTML;
+nome = "Meu nome é Rafael";
+Na primeira linha, Rafael está obtendo o conteúdo do HTML interno do elemento <p>. Na segunda linha, ele apenas substitui o conteúdo dessa 
+variável, ou seja, não define o innerHTML do elemento. Para modificar o HTML interno, Rafael deve alterar a propriedade innerHTML na segunda 
+linha, e removê-la da primeira:
+
+var nome = document.querySelector("#nome");
+nome.innerHTML = "Meu nome é Rafael";
+
+Neste capítulo vimos:
+
+Mais organização de código, exportando as funções de validação.
+O operador de negação NOT (!)
+Como validar um formulário
+A função push para colocar elementos dentro de um array
+A propriedade innerHTML dos elementos, que foi usada para apagar os itens da <ul>
+O método forEach para percorrer arrays

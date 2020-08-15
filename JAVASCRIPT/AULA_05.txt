@@ -1,0 +1,20 @@
+Boas Práticas com Javascript
+
+Não utilizamos o sinal de = entre a propriedade e o valor dela em um objeto Javascript, e sim o sinal de :. O correto seria:
+
+var carro = {
+    cor : "azul",
+    modelo : "fusca",
+    marca : "Volkswagen",
+    kms: 10000,
+    combustivel : "gasolina"
+}
+
+Correto, quando declaramos um objeto no Javascript utilizamos o sinal de : para separar propriedades e seus valores.
+
+Neste capítulo vimos
+
+Dividir o código, separando por funcionalidades do sistema
+Os objetos em Javascript
+A quebrar funções grandes em funções menores ,com cada uma com sua responsabilidade
+A função form.reset() para limpar o formulário
