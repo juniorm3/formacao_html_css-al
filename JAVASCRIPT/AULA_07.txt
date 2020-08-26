@@ -1,0 +1,11 @@
+Remoção, Delegação e Animação
+
+- Um duplo clique:
+O nome do evento correto é dblclick ! Além dos eventos que já vimos aqui no curso, existem muitos outros tipos, que variam desde aonde o seu 
+usuário interage com a página até quando ele altera o tamanho do navegador!
+
+- this:
+Todo evento disparado em JavaScript possui um contexto que é acessível através da função executada quando o evento for disparado.Na função, 
+acessamos o contexto através do objeto implícito this. Ele é uma referência para o elemento do DOM que esta recebendo o evento, logo, sua 
+natureza é dinâmica, ou seja, se clicarmos no primeiro elemento da lista o this será o primeiro elemento, se clicarmos no último ele será 
+o último. É a natureza dinâmica do this que nos permite utilizar a mesma função em diferentes contextos.
